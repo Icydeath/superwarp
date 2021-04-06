@@ -2,6 +2,26 @@
 
 This is an addon for Windower4 for FFXI. It allows text commands to teleport using Homepoints, Waypoints, Survival Guides, Escha/Reis portals, and Unity NPC warps. There may be more coming. 
 
+### superwarp gui
+
+![gui_example1](gui_example1.png)
+
+![gui_example2](gui_example2.png)
+
+#### gui setup:
+
+- move the libs folder to ..\windower4\addons
+- gui's configuration options are in superwarpgui.lua
+  - show_gui (true/false) : shows/hides the gui
+  - gui_x : horizontal positioning
+  - gui_y : vertical positioning
+  - is_all (true/false) : default setting for the all toggle
+  - log_warp_cmd (true/false) : logs what command is sent to superwarp
+  - combobox_background (true/false) : show/hide the combobox backgrounds
+  - show_friendly_warptype_names (true/false) : uses friendly names(ie: 'homepoints') when true, uses aliases when false (ie: 'hp')
+- reload superwarp 
+
+
 ### Commands:
 
 #### Homepoint Commands
