@@ -63,6 +63,8 @@ for k, map in pairs(maps) do
     warp_list:append(map.short_name)
 end
 
+require('superwarpgui')
+
 sub_zone_aliases = {
     ['e'] = 'Entrance',
     ['ah'] = 'Auction House',
